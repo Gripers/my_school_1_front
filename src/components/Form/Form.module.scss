@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white !important;
+  }
+
+  form {
+    margin-top: 26px;
+    display: grid;
+    gap: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px) brightness(0.5);
+    padding: 3vh;
+    border-radius: 12px;
+    width: 50%;
+
+    p {
+      color: white !important;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    h1 {
+      font-size: 36px;
+    }
+
+    form {
+      width: 95%;
+    }
+  }
+}

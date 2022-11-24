@@ -1,0 +1,7 @@
+.courses_group {
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
