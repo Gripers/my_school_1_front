@@ -1,11 +1,11 @@
 const coursesDB = [
   {
     id: 1,
-    course: 'Ingliz Tili',
+    course: 'Math & ingliz tili',
   },
   {
     id: 2,
-    course: 'Math',
+    course: 'Ingliz tili',
   }
 ];
 
