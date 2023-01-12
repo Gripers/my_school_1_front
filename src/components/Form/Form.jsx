@@ -44,7 +44,7 @@ const Form = () => {
       <h1>My School</h1>
       <form onSubmit={(event) => handleSubmit(event)}>
         <Input placeholder='Name' />
-        <Input placeholder='Number' />
+        <Input type='number' placeholder='Number' />
         <div style={{ overflow: 'hidden' }}>
           <p>Kursni tanlang</p>
           <CourseBox />
